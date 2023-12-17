@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+            background-color: cornflowerblue;
+        }
+        .block {
+            position: absolute;
+        }
+        .block_1 {
+            left: 30px;
+            top: 500px;
+        }
+        .block_2 {
+            left: 180px;
+            top: 500px;
+        }
+        .block_3 {
+            left: 330px;
+            top: 500px;
+        }
+        .block_4 {
+            left: 480px;
+            top: 500px;
+        }
+        .block_5 {
+            left: 630px;
+            top: 500px;
+        }
+        .block_6 {
+            left: 780px;
+            top: 500px;
+        }
+        .block_7 {
+            left: 930px;
+            top: 500px;
+        }
+        .block_8 {
+            left: 1080px;
+            top: 500px;
+        }
+        .block_9 {
+            left: 330px;
+            top: 350px;
+        }
+        .block_10 {
+            left: 780px;
+            top: 250px;
+        }
+        .block_11 {
+            left: 930px;
+            top: 250px;
+        }
+        .mario {
+            position: absolute;
+            width: 150px;
+            box-sizing: border-box;
+            top: 405px;
+            left: 50px;
+            animation: mario 5s linear infinite;
+        }
+        @keyframes mario {
+            23% {left: 305px; top: 405px;}
+            26% {left: 315px; top: 255px;}
+
+            31% {left: 400px; top: 255px;}
+            32% {left: 400px; top: 230px;}
+            33% {left: 400px; top: 255px;}
+
+            37% {left: 485px; top: 255px;}
+            40% {left: 490px; top: 405px;}
+            50% {left: 740px; top: 405px;}
+            55% {left: 760px; top: 155px;}
+            85% {left: 1100px; top: 155px;}
+            90% {left: 1105px; top: 405px;}
+            100% {left: 1205px; top: 405px;}
+        }
+        
+        .cloud {
+            position: absolute;
+            width: 600px;
+            box-sizing: border-box;
+        }
+        .cloud_1 {
+            left: 180px;
+            top: 0px;
+            animation: cloud1 5s linear infinite;
+        }
+        .cloud_2 {
+            left: 680px;
+            top: -50px;
+            animation: cloud2 5s linear infinite;
+
+        }
+		@keyframes cloud1 {
+            0% {left: 180px;}
+            100% {left: 800px;}
+        }
+        @keyframes cloud2 {
+            0% {left: 680px;}
+            100% {left: 1200px;}
+        }
+		.luckyblock {
+            position: absolute;
+            width: 150px;
+            left: 415px;
+            top: 210px;
+            animation: block 5s infinite;
+        }
+        @keyframes block {
+            0% {opacity: 100%;}
+            31% {opacity: 100%;}
+            32% {opacity: 0%;}
+            100% {opacity: 0%;}
+        }
+        .coin {
+            position: absolute;
+            width: 150px;
+            left: 405px;
+            top: 210px;
+            animation: coin 5s infinite;
+        }
+        @keyframes coin {
+            0% {opacity: 0%;}
+            31% {opacity: 0%; top: 210px;}
+            38% {opacity: 100%; top: 170px;}
+            45% {opacity: 0%; top: 210px;}
+            100% {opacity: 0%;}
+        }
+
+
+</style>
+<body>
+    <img class="block block_1" src="./images/ground.webp" alt="" />
+    <img class="block block_2" src="./images/ground.webp" alt="" />
+    <img class="block block_3" src="./images/ground.webp" alt="" />
+    <img class="block block_4" src="./images/ground.webp" alt="" />
+    <img class="block block_5" src="./images/ground.webp" alt="" />
+    <img class="block block_6" src="./images/ground.webp" alt="" />
+    <img class="block block_7" src="./images/ground.webp" alt="" />
+    <img class="block block_8" src="./images/ground.webp" alt="" />
+    <img class="block block_9" src="./images/ground.webp" alt="" />
+    <img class="block block_10" src="./images/ground.webp" alt="" />
+    <img class="block block_11" src="./images/ground.webp" alt="" />
+
+    <img class="cloud cloud_1" src="./images/cloud_1.webp" alt="">
+    <img class="cloud cloud_2" src="./images/cloud_2.webp" alt="">
+    <img class="luckyblock" src="./images/luckyblock.png" alt="">
+    <img class="coin" src="./images/coin.gif" alt="">
+
+    <img class="mario" src="./images/mario.gif" alt="" />
+
+    
+</body>
+</html>
